@@ -7,6 +7,7 @@ s1:
     String A = m, String B = n
 s2:
 
+TEST branch
 """
 # initial
 # A, B string
