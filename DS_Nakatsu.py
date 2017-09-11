@@ -5,8 +5,8 @@
 
 '''
 
-str1 = "actcg"
-str2 = "tcacgtcc"
+str1 = "bcdabab"
+str2 = "cbacbaaba"
 
 
 def d(i, s):
@@ -25,4 +25,4 @@ def d(i, s):
         return d(i - 1, s)
 
 
-print(d(6, 5))
+print(d(1, 1))
