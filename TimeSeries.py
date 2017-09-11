@@ -8,6 +8,7 @@ s1:
 s2:
 
 TEST branch
+Test2
 """
 # initial
 # A, B string
