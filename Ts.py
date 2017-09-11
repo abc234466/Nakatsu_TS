@@ -8,8 +8,8 @@ s2:
 """
 # initial
 # A, B string
-strA = "bcdabab"
-strB = "cbacbaaba"
+strA = "actcg"
+strB = "catcttg"
 m = len(strA)
 n = len(strB)
 
