@@ -3,12 +3,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 """
+
 s1:
     String A = m, String B = n
 s2:
 
-TEST branch
-Test2
 """
 # initial
 # A, B string
