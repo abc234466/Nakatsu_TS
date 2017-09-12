@@ -25,9 +25,4 @@ def d(i, s):
     else:
         return d(i - 1, s)
 
-
-# for i in range(len(str1)):
-#     for j in range(len(str2)):
-#         print("{}".format(d(i, j)), end=' ')
-#     print()
 print(d(5, 4))
