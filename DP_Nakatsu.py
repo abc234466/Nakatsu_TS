@@ -3,7 +3,6 @@
     DP -> find "lower bound"
     i must be larger than s -> i >= s
     s = 0 -> return 0
-
 '''
 
 str1 = "bcdabab"
