@@ -19,10 +19,14 @@ def d(i, s):
     while str1[i - 1] != str2[j] and j < len(str2):  # find next match index
         j += 1
         if j == len(str2):
-           break
+            break
     if j < len(str2):
         return min(j + 1, d(i - 1, s))
     else:
         return d(i - 1, s)
 
-print(d(5, 4))
+
+for i in range(len(str1)):
+    for j in range(len(str2)):
+        print(d(i, j), end=' ')
+    print()
